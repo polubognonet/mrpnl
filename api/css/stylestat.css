@@ -125,9 +125,10 @@
 }
 
 .eachvalue p {
-  color: black;
+  color: #0606069e;
   font-family: 'Montserrat', 'Roboto Slab', serif;
   font-size: 13px;
+  font-weight: 600;
 }
 
 .apibody {

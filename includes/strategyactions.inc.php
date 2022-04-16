@@ -93,6 +93,7 @@ if (isset($_POST['use'])) {
       $resultd = $connstr->query($sql_ud);
       if ($resultd->num_rows > 0) {
         while($rows = $resultd->fetch_assoc()) {
+          $_SESSION['edit'] = "yes";
           $_SESSION['idstr'] = $rows["id"];
           $_SESSION['working'] = $rows["working"];
           $_SESSION['name'] = $rows["name"];
@@ -116,12 +117,16 @@ if (isset($_POST['use'])) {
 
 } elseif (isset($_POST['clone'])) {
 
+  $sql_ud = "SELECT * FROM `$username`";
+    $resultd = $connstr->query($sql_ud);
+    $resee = $resultd->num_rows;
+
   $sql_ud = "SELECT * FROM `$username` WHERE id = '$id';";
     $resultd = $connstr->query($sql_ud);
-    if ($resultd->num_rows < 11 && $resultd->num_rows > 0) {
+    if ($resultd->num_rows > 0 && $resee < 10) {
       while($rows = $resultd->fetch_assoc()) {
         $working = 0;
-        $name = $rows["name"];
+        $name = $rows["name"] . " (clone)";
         $coinsamount = $rows["coinsamount"];
         $ordersamount = $rows["ordersamount"];
         $pricedeviation = $rows["pricedeviation"];
@@ -138,11 +143,13 @@ if (isset($_POST['use'])) {
       }
 
       $sql = "INSERT INTO `$username` (name, working, coinsamount, ordersamount, pricedeviation, takeprofit, martingale, pricemartin, newpricemartin, pullupgrid, liveadd, smartdca, dynamictp, firstorderdev, mindep) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-      $stmte = $connstr->prepare($sql);
-      $stmte->bind_param("sissssssssiiiss", $name, $working, $coinsamount, $ordersamount, $pricedeviation, $takeprofit, $martingale, $pricemartin, $newpricemartin, $pullupgrid, $liveadd, $smartdca, $dynamictp, $firstorderdev, $mindep);
-
-      header("Location: https://mrpnl.com/myaccount/dca/?clone=success");
-      exit;
+      if ($stmte = $connstr->prepare($sql))
+      {
+       $stmte->bind_param("sissssssssiiiss", $name, $working, $coinsamount, $ordersamount, $pricedeviation, $takeprofit, $martingale, $pricemartin, $newpricemartin, $pullupgrid, $liveadd, $smartdca, $dynamictp, $firstorderdev, $mindep);
+       $stmte->execute();
+       header("Location: https://mrpnl.com/myaccount/dca/?clone=success");
+      }
+      else echo("Statement failed: ". $stmte->error . "<br>");
 
     } else {
       header("Location: https://mrpnl.com/myaccount/dca/?clone=bad");

@@ -13,6 +13,7 @@ $sql_u = "SELECT * FROM wptj_users WHERE user_nicename='{$username}'";
     while($row = $result->fetch_assoc()) {
       $apikey = $row['api_key'];
       $apisec = $row['api_secret'];
+      $botdeposit = $row['botdeposit'];
       if ($apikey !== "0" && $apisec !== "0") {
         $apiexists = 1;
         require "checkorders/vendor/autoload.php";
@@ -144,19 +145,6 @@ $sql_u = "SELECT * FROM wptj_users WHERE user_nicename='{$username}'";
 </div>
 
 <script>
-
-var images = [];
-function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-        images[i] = new Image();
-        images[i].src = preload.arguments[i];
-    }
-}
-
-preload(
-    "https://mrpnl.com/myaccount/img/statisticimg.png"
-)
-
 
   var cookieValue = parseInt(localStorage.getItem('x'));
   console.log(cookieValue);

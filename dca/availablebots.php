@@ -66,7 +66,11 @@ include "../includes/dbhstrategy.inc.php";
             <?php echo "<p>VOLUME MARTINGALE:</p><p>".$martin."</p>"; ?>
           </div>
           <div class="valueWrapper">
-            <?php echo "<p>MINIMUM DEPOSIT:</p><p>".$minDep."</p>"; ?>
+            <?php if ($botdeposit < $minDep) {
+              echo "<p style = 'color: #d6323b;'>MINIMUM DEPOSIT:</p><p style = 'color: #d6323b;'>".$minDep."</p>";
+            } else {
+              echo "<p>MINIMUM DEPOSIT:</p><p>".$minDep."</p>";
+            } ?>
           </div>
           <div class="valueWrapper">
             <?php if ($liveadd1 == "0") {
@@ -98,10 +102,10 @@ include "../includes/dbhstrategy.inc.php";
         </div>
         <div class="strategyActions">
             <div class="strategyActionsWrap">
-              <button id="removeimg" type="submit" name="use"><img src="img/usestrategy.png"> <span class="tooltiptext">Choose</span> </button>
-              <button id="removeimg" type="submit" name="remove"><img src="img/crossstrategy.png"> <span class="tooltiptext">Remove</span> </button>
-              <button id="removeimg" type="submit" name="edit"><img src="img/editstrategy.png"> <span class="tooltiptext">Edit</span> </button>
-              <button id="removeimg" type="submit" name="clone"><img src="img/clonestrategy.png"> <span class="tooltiptext">Clone</span> </button>
+              <button id="use" type="submit" name="use"><img src="img/usestrategy.png"> <span class="tooltiptext">Choose</span> </button>
+              <button id="remove" type="submit" name="remove"><img src="img/crossstrategy.png"> <span class="tooltiptext">Remove</span> </button>
+              <button id="edit" type="submit" name="edit"><img src="img/editstrategy.png"> <span class="tooltiptext">Edit</span> </button>
+              <button id="clone" type="submit" name="clone"><img src="img/clonestrategy.png"> <span class="tooltiptext">Clone</span> </button>
             </div>
 
 
@@ -114,3 +118,14 @@ include "../includes/dbhstrategy.inc.php";
     </div>
   </div>
 </div>
+
+<script>
+
+$('#use, #remove, #edit, #clone').click(
+  function() {
+  preloaderFadeInTime = 1000;
+  var preloader = $('.loader-wrapper');
+  preloader.fadeIn(preloaderFadeInTime);
+  });
+
+</script>

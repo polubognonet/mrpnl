@@ -3,7 +3,7 @@
 if (isset($_SESSION['idstr'])) {
 
   $buttonValue = "editStrategyButton";
-
+  $edit = $_SESSION['edit'];
   $idstr = $_SESSION['idstr'];
   $working = $_SESSION['working'];
   $name = $_SESSION['name'];
@@ -38,9 +38,17 @@ if (isset($_SESSION['idstr'])) {
 
 
 <div class="aditionalset" id="apiid">
-  <div class="aditinformation">
+  <?php if ($edit == "yes") {
+    echo "<div class='aditinformation' style='box-shadow: 0 0 12px 2px #558545;'>";
+  } else {
+    echo "<div class='aditinformation'>";
+  }?>
     <div class="aditheader">
-      <p align = "center">CREATE STRATEGY</p>
+      <?php if ($edit == "yes") {
+        echo "<p align = 'center'>EDIT STRATEGY</p>";
+      } else {
+        echo "<p align = 'center'>CREATE STRATEGY</p>";
+      }?>
     </div>
     <form class="strategyForm" action="../includes/checkstrategy.inc.php" method="post">
       <div class="strategyDiv">
@@ -171,15 +179,15 @@ if (isset($_SESSION['idstr'])) {
       </div>
       <div class="strategyDivFinal">
         <div class="strategyButton">
-          <button id = "strategyButtonId" class="strategyCreateButton" type="submit" <?php echo "name = '".$buttonValue."'"; ?>>Create Strategy</button>
-
+          <button id = "strategyButtonId" class="strategyCreateButton" type="submit" <?php echo "name = '".$buttonValue."'"; ?>>Done</button>
         </div>
       </div>
     </form>
 </div>
 
-<?php if (isset($_SESSION['idstr'])) {
+<?php if (isset($_SESSION['edit'])) {
   unset($_SESSION['idstr']);
+  unset($_SESSION['edit']);
   unset($_SESSION['working']);
   unset($_SESSION['name']);
   unset($_SESSION['coinsamount']);
@@ -377,7 +385,7 @@ function sendFormButton(){
       document.querySelector("#strategyButtonId").innerHTML = "Incorrect Strategy";
     } else {
       button.disabled = false;
-      document.querySelector("#strategyButtonId").innerHTML = "Create Strategy";
+      document.querySelector("#strategyButtonId").innerHTML = "Done";
     }
 };
 
