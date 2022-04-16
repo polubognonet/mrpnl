@@ -1,0 +1,241 @@
+.coinStatWrap {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffffe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin: 15px 0;
+}
+
+.coinWrapNumber {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background: #dff2d9;
+}
+
+.coinWrapNumberP {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.5px;
+  color: #787878;
+}
+
+.coinStat {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5d5d59c;
+  box-sizing: border-box;
+}
+
+.accountpanel2 {
+  width: 80%;
+  overflow: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.coinStatName {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.coinStatValue {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.coinStatRange {
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.coinWrapStatP {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.5px;
+  color: #787878;
+}
+
+.bottomStat {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.bottomStatLeft {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historyStatWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #ffffffe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.bottomStatRight {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.bottomStatRightWrap {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-flow: wrap;
+}
+
+.profitStat {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffffe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+  flex-flow: wrap;
+}
+
+.profitStatHeader {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  background: #dff2d9;
+}
+
+.profitStatHeader P {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.5px;
+  color: #787878;
+}
+
+.profitStatBody {
+  width: 100%;
+  height: calc(100% - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5d5d59c;
+  box-sizing: border-box;
+}
+
+.historyStatWrapHeader {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  background: #dff2d9;
+}
+
+.historyStatWrapBody {
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.historyStatWrapHeaderValue {
+  width: 16.6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.historyStatWrapHeaderValue P {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.5px;
+  color: #787878;
+}
+
+.historyStatOff {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+.historyStatOffValue {
+  width: 16.6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.historyStatOffValue P {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.5px;
+  color: #787878;
+}
+
+.profitStatBody P {
+  font-weight: 500;
+  font-size: 50px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.5px;
+  color: #787878;
+}

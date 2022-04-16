@@ -1,0 +1,327 @@
+.topupheader {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dff2d9;
+}
+
+.topupheader {
+  color: #666666;
+  font-family: 'Montserrat', 'Roboto Slab';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.depositoptions {
+  width: 55%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  flex-flow: wrap;
+  background: #ffffffe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.topupbody {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-flow: wrap;
+  width: 100%;
+  height: calc(100% - 70px);
+  border: 1px solid #d5d5d59c;
+}
+
+.containerbody {
+  height: calc(100% - 70px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  border: 1px solid #d5d5d59c;
+
+}
+
+.mindeposit {
+  width: 100%;
+}
+
+.mindeposit p {
+  color: #b0b0b0;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.topupinformation {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.topupinformation p {
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.finaldeposit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emailinformation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerheader {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dff2d9;
+}
+
+.containerheader p {
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #666666;
+}
+
+.containertopup {
+  width: 31%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  flex-flow: wrap;
+  background: #ffffffe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.containertopup .topupform {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.containertopup .topupform .col-3 {
+  width: 80%;
+  position: relative;
+}
+
+.coinswrap {
+  width: 99%;
+  margin: 0 auto;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.coinwrapper {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+  box-sizing: border-box;
+  transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.coinswrap .coinwrapper .pcoinhover {
+  color: black;
+}
+
+.coinswrap .coindivhover {
+  background: #ffffffe6;
+}
+
+.coinswrap .changeimgcolor {
+  filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(324deg) brightness(102%) contrast(105%);
+}
+
+.coinswrapdesk {
+  width: 85%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items: center;
+  border-top: 1px solid grey;
+}
+
+.coinimg {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
+  position: relative;
+}
+
+.coinwrapper p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  height: 30%;
+  margin-top: -30px;
+  transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
+  position: absolute;
+  margin-top: 160px;
+}
+
+.coinswrapdesk p {
+  color: #747474;
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.mrpnllogotopup {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.mrpnllogotopup p {
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #505050;
+}
+
+.topupspacer2 {
+  width: 100%;
+  height: 5%;
+}
+
+.topupspacer1 {
+  width: 100%;
+  height: 15%;
+}
+
+.animationtop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+input[type="text"] {
+  font: 15px/24px 'Montserrat', 'Roboto Slab', serif;
+  color: #6f6f6f;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  background: center;
+  font-weight: 600;
+  text-align: center;
+}
+
+input[type="text"]::placeholder {
+  color: #c1c1c1;
+  font-size: 11px;
+}
+
+.effect-7, .effect-8, .effect-9 {
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  padding: 7px 14px 9px;
+  transition: 0.4s;
+}
+
+.btn {
+  appearance: none;
+  background-color: #dff2d9;
+  border: 2px solid #dff2d9;
+  border-radius: 2px;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Montserrat', 'Roboto Slab';
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  width: 45%;
+  height: 50px;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  letter-spacing: 1px;
+}
+
+.btn:disabled {
+  pointer-events: none;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.topupwrap {
+  border-top: none;
+  width: 65%;
+  height: 500px;
+  box-sizing: border-box;
+  margin: 4% auto 6.5% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.depositoptions {
+  width: 65%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  flex-flow: wrap;
+  background: #ffffffe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.paymentform {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}

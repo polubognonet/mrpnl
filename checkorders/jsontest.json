@@ -1,0 +1,13 @@
+(
+    [symbol] => BNBBTC
+    [orderId] => 7652393
+    [clientOrderId] => aAE7BNUhITQj3eg04iG1sY
+    [transactTime] => 1508564815865
+    [price] => 0.00000000
+    [origQty] => 1.00000000
+    [executedQty] => 1.00000000
+    [status] => FILLED
+    [timeInForce] => GTC
+    [type] => MARKET
+    [side] => BUY
+)

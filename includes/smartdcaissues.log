@@ -1,0 +1,8 @@
+PHP Notice:  Undefined variable: startbot22 in /var/www/mrpnl.com/myaccount/includes/startbot22.php on line 19
+PHP Fatal error:  Uncaught Error: Call to a member function getUserInformation() on null in /var/www/mrpnl.com/myaccount/includes/startbot22.php:19
+Stack trace:
+#0 {main}
+  thrown in /var/www/mrpnl.com/myaccount/includes/startbot22.php on line 19
+PHP Parse error:  syntax error, unexpected ';' in /var/www/mrpnl.com/myaccount/includes/functions2.php on line 69
+PHP Parse error:  syntax error, unexpected ';' in /var/www/mrpnl.com/myaccount/includes/functions2.php on line 69
+PHP Parse error:  syntax error, unexpected ';' in /var/www/mrpnl.com/myaccount/includes/functions2.php on line 69

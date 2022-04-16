@@ -1,0 +1,9 @@
+PHP Notice:  Undefined index: currentUser in /var/www/mrpnl.com/myaccount/includes/userparsing.inc.php on line 4
+PHP Warning:  require(/var/www/mrpnl.com/myaccount/phpcheck/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 40
+PHP Fatal error:  require(): Failed opening required '/var/www/mrpnl.com/myaccount/phpcheck/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 40
+PHP Notice:  Undefined index: currentUser in /var/www/mrpnl.com/myaccount/includes/userparsing.inc.php on line 4
+PHP Warning:  require(/var/www/mrpnl.com/myaccount/phpcheck/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 40
+PHP Fatal error:  require(): Failed opening required '/var/www/mrpnl.com/myaccount/phpcheck/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 40
+PHP Notice:  Undefined index: currentUser in /var/www/mrpnl.com/myaccount/includes/userparsing.inc.php on line 4
+PHP Warning:  require(/var/www/mrpnl.com/myaccount/phpcheck/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 40
+PHP Fatal error:  require(): Failed opening required '/var/www/mrpnl.com/myaccount/phpcheck/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 40

@@ -1,0 +1,9 @@
+PHP Notice:  Undefined offset: 4 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 14
+PHP Notice:  Trying to get property 'num_rows' of non-object in /var/www/mrpnl.com/myaccount/includes/class21.php on line 55
+PHP Notice:  Undefined variable: mydeposit in /var/www/mrpnl.com/myaccount/includes/class21.php on line 75
+PHP Fatal error:  Uncaught Exception: signedRequest error: {"code":-1121,"msg":"Invalid symbol."} in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php:1414
+Stack trace:
+#0 /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php(1004): Binance\API->httpRequest()
+#1 /var/www/mrpnl.com/myaccount/includes/startbot21.php(55): Binance\API->price()
+#2 {main}
+  thrown in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php on line 1414

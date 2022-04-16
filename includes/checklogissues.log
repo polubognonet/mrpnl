@@ -1,0 +1,38 @@
+PHP Notice:  Undefined offset: 16 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 17 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 18 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 19 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 20 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 21 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined variable: curr in /var/www/mrpnl.com/myaccount/includes/class21.php on line 129
+PHP Notice:  Undefined variable: curr in /var/www/mrpnl.com/myaccount/includes/class21.php on line 143
+PHP Notice:  Undefined variable: curr in /var/www/mrpnl.com/myaccount/includes/class21.php on line 157
+PHP Fatal error:  Uncaught Exception: signedRequest error: {"code":-1121,"msg":"Invalid symbol."} in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php:1414
+Stack trace:
+#0 /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php(1004): Binance\API->httpRequest()
+#1 /var/www/mrpnl.com/myaccount/includes/startbot21.php(55): Binance\API->price()
+#2 {main}
+  thrown in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php on line 1414
+PHP Notice:  Undefined offset: 16 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 17 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 18 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 19 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 20 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined offset: 21 in /var/www/mrpnl.com/myaccount/includes/startbot21.php on line 18
+PHP Notice:  Undefined variable: curr in /var/www/mrpnl.com/myaccount/includes/class21.php on line 129
+PHP Notice:  Undefined variable: curr in /var/www/mrpnl.com/myaccount/includes/class21.php on line 143
+PHP Notice:  Undefined variable: curr in /var/www/mrpnl.com/myaccount/includes/class21.php on line 157
+PHP Fatal error:  Uncaught Exception: signedRequest error: {"code":-1121,"msg":"Invalid symbol."} in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php:1414
+Stack trace:
+#0 /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php(1004): Binance\API->httpRequest()
+#1 /var/www/mrpnl.com/myaccount/includes/startbot21.php(55): Binance\API->price()
+#2 {main}
+  thrown in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php on line 1414
+PHP Fatal error:  Uncaught Exception: signedRequest error: {"code":-1021,"msg":"Timestamp for this request is outside of the recvWindow."} in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php:1418
+Stack trace:
+#0 /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php(1156): Binance\API->httpRequest()
+#1 /var/www/mrpnl.com/myaccount/includes/startbot21.php(45): Binance\API->balances()
+#2 {main}
+  thrown in /var/www/mrpnl.com/myaccount/checkorders/vendor/jaggedsoft/php-binance-api/php-binance-api.php on line 1418
+PHP Parse error:  syntax error, unexpected '}', expecting end of file in /var/www/mrpnl.com/myaccount/includes/functions1.php on line 217
+PHP Parse error:  syntax error, unexpected '}', expecting end of file in /var/www/mrpnl.com/myaccount/includes/functions1.php on line 217

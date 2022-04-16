@@ -1,0 +1,985 @@
+@media screen and (max-width: 541px) {
+
+
+  .btn {
+    height: 40px;
+    margin: 5% auto 0 auto;
+    width: 70%;
+  }
+
+  #phone {
+    width: 100%;
+  }
+
+  .mrpnldivmobile {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+
+  .mrpnldivmobile p {
+    margin: 0;
+  }
+
+
+  header {
+    height: 90px;
+    width: 100%;
+    background: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+    border-bottom: 1px solid grey;
+  }
+
+  header a {
+    margin: 0 10%;
+  }
+
+  svg {
+    margin: 0 10%;
+  }
+
+  .mrpnldiv {
+    display: none;
+  }
+
+  .botconfigurationpan {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    overflow-y: auto;
+    flex-flow: nowrap;
+    justify-content: normal;
+  }
+
+  .botconfigurationpan {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+  .botconfigurationpan::-webkit-scrollbar {
+      display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  .botconfigurationpan .depositinformation {
+    margin: 0 auto;
+    border: 5px solid #b3c7ad;
+  }
+
+  .botconfigurationpan .accountinformation {
+    margin: 0 auto;
+    border: 5px solid #b3c7ad;
+  }
+
+  .botconfigurationpan .botsinformation {
+    margin: 0 auto;
+    border: 5px solid #b3c7ad;
+  }
+
+  .botconfigurationpan .apiinformation {
+    margin: 0 auto;
+    border: 5px solid #b3c7ad;
+  }
+
+  .currencyinfo1 {
+    border-bottom: 3px solid black;
+    width: 100%;
+    top: 90px;
+    height: 5%;
+    background: #282828;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .currencyinfo1 p {
+    font-size: 12px;
+    font-family: 'Montserrat', 'Roboto Slab';
+    font-weight: 600;
+    color: #dff2d9;
+  }
+
+  .botconfigurationpanchoose {
+    display: flex;
+    background: #e9f3e8;
+    border-radius: 10px;
+    height: 9%;
+    width: 93%;
+    margin: 0 auto;
+    padding-top: 5%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    opacity: 1;
+    scroll-snap-type: x mandatory;
+    border: 3px solid #90918f;
+  }
+
+  .choosediv {
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid grey;
+  }
+
+  .choosediv.active {
+    background: #f9fdf8;
+  }
+
+  .choosediv.active .chooseimg a img {
+    -moz-transition: all 0.3s 0.1s ease-in;
+    -o-transition: all 0.3s 0.1s ease-in;
+    -webkit-transition: all 0.3s 0.1s ease-in;
+    transform: scale(1.2);
+  }
+
+  .choosediv.active .chooseimg a p {
+    -moz-transition: all 0.3s 0.1s ease-in;
+    -o-transition: all 0.3s 0.1s ease-in;
+    -webkit-transition: all 0.3s 0.1s ease-in;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #797979;
+  }
+
+
+
+  .choosespacer {
+    width: 100%;
+    height: 10%;
+  }
+
+  .chooseimg {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chooseimg a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    padding-top: 7%;
+  }
+
+  .chooseimg img {
+    height: 50%;
+    margin: auto;
+  }
+
+  .chooseimg p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat';
+    color: #868686;
+    font-weight: bold;
+  }
+
+  .needhelp {
+    display: none;
+  }
+
+  .needhelp1 {
+    display: none;
+  }
+
+  .profitheaderpc {
+    height: 25%;
+    width: 100%;
+    border-bottom: 3px solid #b3c7ad;
+  }
+
+  .profitheaderpc img {
+    display: none;
+  }
+
+  .profitresults p {
+    font-size: 12px;
+  }
+
+  .profitrevenue p {
+    font-size: 12px;
+  }
+
+  .profitheaderpc p {
+    font-size: 16px;
+    color: grey;
+    font-family: 'Montserrat', 'Roboto Slab';
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .profitmainpc {
+    width: 100%;
+    height: 75%;
+    margin: 0 auto;
+  }
+
+  .profitmainpc form {
+    flex-flow: wrap;
+    justify-content: normal;
+    align-items: normal;
+  }
+
+  .entermonthspc {
+    width: 50%;
+    height: 30%;
+  }
+
+  .enterdepositpc {
+    width: 50%;
+    height: 30%;
+  }
+
+  .choosebotpc {
+    width: 50%;
+    height: 30%;
+  }
+
+  .choosebotpc p {
+    display: none;
+  }
+
+  .calculateprofit {
+    width: 50%;
+    height: 30%;
+  }
+
+  .numbersss {
+    width: 100%;
+    height: 20%;
+  }
+
+  .apiheader2 {
+    width: 29%;
+  }
+
+  .apiheader2 p {
+    font-size: 11px;
+  }
+
+  .gethelp {
+    width: 50%;
+  }
+
+  input[type="text"] {
+    font: 13px/24px 'Montserrat', 'Roboto Slab', serif;
+  }
+
+  .divfooter .button-27 {
+    display: none;
+  }
+
+  .phverify {
+    border: none;
+    width: 100%;
+    height: 59%;
+    background: none;
+  }
+
+  .prefooter {
+    width: 100%;
+    margin: 0;
+    padding: 7% 0 7% 0;
+  }
+
+  .changelanguage {
+    display: none;
+  }
+
+  .changelanguagemob {
+    display: flex;
+  }
+
+  .rightsreserved {
+    width: 100%;
+    margin: 0;
+  }
+
+  .phonenumberheader {
+    display: none;
+  }
+
+  .phonenumberheader h3 {
+    font-size: 28px;
+  }
+
+  .phonenumberheader img {
+    height: 40px;
+  }
+
+  .phonedisclaimerphone {
+    width: 100%;
+    margin: 4%;
+    padding: 5% 0;
+    display: block;
+  }
+
+  .phonedisclaimer {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 5% 0;
+    border-bottom: 1px solid grey;
+  }
+
+  .containertopup {
+    width: 100%;
+    margin: 2% auto;
+  }
+
+  .profilecontainer {
+    width: 90%;
+    height: 100%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    background: linear-gradient(0deg, #e6ffdf4f, #f9fdf8);
+    border: 5px solid #b3c7ad;
+    box-shadow: inset rgba(0,0,0,.6) 0 -1px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    rgba(0,0,0,.8) 0 2px 5px -1px;
+  }
+
+  .mainpanel {
+    height: 100%;
+  }
+
+  .notificationdetails {
+    width: 90%;
+  }
+
+  .infodetails {
+    width: 90%;
+  }
+
+  .infoimage {
+    display: none;
+  }
+
+  .notificationimage {
+    display: none;
+  }
+
+  .helpdiv {
+    width: 100%;
+  }
+
+  .helpdiv a {
+    width: 30%;
+  }
+
+  .helpdiv1 {
+    width: 100%;
+  }
+
+  .helpdiv button {
+    width: 40%;
+  }
+
+  .notificationdetails .helpdiv {
+    width: 100%;
+  }
+
+  .faqdiv {
+    width: 90%;
+    height: 80vh;
+    margin: 0% auto;
+    display: flex;
+    flex-flow: wrap;
+    background: #fdfdfd;
+    border: 5px solid #b3c7ad;
+    box-shadow: inset rgba(0,0,0,.6) 0 -1px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    rgba(0,0,0,.8) 0 2px 5px -1px;
+  }
+
+  .faqdiv li {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .faqdiv ul {
+    height: 100%;
+    margin: 0;
+  }
+
+  .faqdiv a {
+    font-size: 15px;
+  }
+
+  .enterphone p {
+    opacity: 0.7;
+    font-size: 12px;
+  }
+
+  .containerheader p {
+    font-size: 18px;
+  }
+
+  #login {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .divfooter {
+    padding: 3% 0 3% 0;
+    width: 100%;
+  }
+
+  .divfooter h3 {
+    display: none;
+  }
+
+  .divfooterr {
+    margin-left: 10%;
+  }
+
+  .iti.iti--allow-dropdown {
+  width: 90%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+  .contactdetails p {
+    display: none;
+  }
+
+  .todayprofit {
+    width: 50%;
+    height: 56%;
+  }
+
+  .profitnumber p {
+    font-size: 13px;
+  }
+
+  .statisticheader p{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Montserrat', 'Roboto Slab';
+  }
+
+  .statsinfo {
+    display: flex;
+    flex-flow: wrap column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .historyprofit {
+    width: 48%;
+    height: 56%;
+    border-left: 5px solid #e9f3e8;
+    border-right: 0px;
+  }
+
+  .divdepositnumber {
+    font-size: 12px;
+  }
+
+  .botdepositdiv {
+    width: 100%;
+  }
+
+  .estimatedprofitdiv {
+    width: 96%;
+  }
+
+  .refferalstatistic {
+    font-size: 10px;
+  }
+
+  .startdisable {
+    width: 98%;
+    height: 29%;
+    border-top: 1px solid grey;
+    display: flex;
+  }
+
+  .botstatus {
+    height: 99%;
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .startbutton {
+    height: 99%;
+    width: 45%;
+  }
+
+  .startbuttonform {
+    height: 100%;
+    width: 100%;
+  }
+
+p.lowerclass {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    padding: 0 10%;
+  }
+
+  .botstatus p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    padding: 0 10%;
+  }
+
+  .stabledescription p {
+    font-size: 10px;
+  }
+
+  .aggressivedescription p {
+    font-size: 10px;
+  }
+
+.apistatus p {
+  font-size: 9px;
+  padding-bottom: 3%;
+}
+
+.apiheader2 p {
+  font-size: 14px;
+  width: 80%;
+}
+
+.apidescription p {
+  font-size: 12px;
+}
+
+
+.botstatus .statusp {
+  display: none;
+}
+
+  .checkbtn {
+    display: block;
+    margin: 0 10%;
+  }
+
+  .wowimage {
+    height: 25px;
+    width: 25px;
+    -moz-transition: all 0.3s 0.1s ease-in;
+    -o-transition: all 0.3s 0.1s ease-in;
+    -webkit-transition: all 0.3s 0.1s ease-in;
+  }
+
+  .topDeskNavigation {
+    position: fixed;
+    display: block;
+    width: 100%;
+    min-height: 65vh;
+    height: 80%;
+    top: 90px;
+    text-align: left;
+    right: -108%;
+    -moz-transition: all 0.5s 0.1s ease-in;
+    -o-transition: all 0.5s 0.1s ease-in;
+    -webkit-transition: all 0.5s 0.1s ease-in;
+    margin: 0;
+    background: #282828;
+    border: 10px solid #b3c7ad;
+    border-top: none;
+  }
+
+  .topDeskNavigation li {
+    display: block;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    width: 53%;
+    border-bottom: 1px solid grey;
+  }
+
+  header .topDeskNavigation .logoutli {
+    height: 16.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #b2c6ac;
+    box-sizing: border-box;
+  }
+
+   .logoutdiv .button-27 {
+    font-family: 'Montserrat', 'Roboto Slab';
+    min-height: 40px;
+    background: #5f5f5f;
+    margin-top: 0;
+  }
+
+  header .topDeskNavigation .clientinfo {
+    display: flex;
+    width: 43%;
+    padding: 0 5% 0 5%;
+    height: 31%;
+    flex-flow: wrap;
+    border-top: 5px solid #b3c7ad;
+    box-shadow: inset rgba(0,0,0,.6) 0 -1px 5px,inset rgba(252,255,255,.7) 0 2px 5px,rgba(0,0,0,.8) 0 2px 5px -1px;
+  }
+
+  header .topDeskNavigation .clientinfo .mobdivinfo p {
+    font-size: 11px;
+    color: #f7f7f7;
+  }
+
+  .topDeskNavigation li a {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', 'Roboto Slab';
+    color: #f7f7f7;
+    text-align: right;
+    margin-right: 20%;
+    letter-spacing: 2px;
+  }
+
+  .topDeskNavigation li a:hover  {
+    color: white;
+    padding-right: 20%;
+    transition: all 200ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+
+  .topDeskNavigation li:hover {
+    padding-left: none;
+    background-color: #282828;
+    transition: all 200ms cubic-bezier(.23, 1, 0.32, 1);
+    touch-action: manipulation;
+    will-change: transform;
+  }
+
+  .topDeskNavigation .logoutdiv a {
+   width: 100%;
+   margin: 0;
+ }
+
+  .topDeskNavigation .logoutdiv a:hover {
+   padding-right: 0%;
+   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ }
+
+  .activeli {
+    background: #5f5f5f;
+  }
+
+  .activeli .activea {
+    padding-right: 5%;
+  }
+
+
+ #check:checked ~ .topDeskNavigation {
+    right: -50%;
+  }
+
+  #check:checked ~ .checkbtn .wowimage {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+   }
+
+  .clientinfodiv {
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .mobdivinfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: -10%;
+    align-items: center;
+  }
+
+  .personalpanel {
+    display: none;
+  }
+
+  header .mobprofile #check1:checked ~ .mobpersonalpanel{
+     left: 0%;
+   }
+
+  .wrapper {
+    width: 100%;
+    height: 1270px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .apiexample {
+    width: 90%;
+  }
+
+  .wrappertopup {
+    width: 100%;
+    height: 1600px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .wrappertopicapi {
+    width: 100%;
+  }
+
+  .wrapperphone {
+    width: 98%;
+    height: 1550px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .accountpanel {
+    margin: 20px 0;
+    width: 100%;
+    display: block;
+    height: 75%;
+  }
+
+  .helloworld {
+    display: none;
+  }
+
+  .hellomobile {
+height: 4%;
+width: 90%;
+margin: 0% auto 0% auto;
+margin-top: 140px;
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+align-items: center;
+background: #262626;
+border: 5px solid #b3c7ad;
+  }
+
+  .hellomobile p {
+    color: #ebf8e8;
+    font-family: 'Montserrat', 'Roboto Slab';
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+
+  .binanceinformation {
+    height: 15%;
+    width: 90%;
+    margin: 5% auto 5% auto;
+    display: flex;
+    flex-flow: wrap;
+    background: linear-gradient(0deg, #e6ffdf4f, #f9fdf8);
+    border: 5px solid #b3c7ad;
+    box-shadow: inset rgba(0,0,0,.6) 0 -1px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    rgba(0,0,0,.8) 0 2px 5px -1px;
+  }
+
+  .calculprofitdiv {
+    height: 22%;
+    width: 90%;
+    margin: 5% auto 5% auto;
+    display: flex;
+    flex-flow: wrap;
+    background: linear-gradient(0deg, #e6ffdf4f, #f9fdf8);
+    border: 5px solid #b3c7ad;
+    box-shadow: inset rgba(0,0,0,.6) 0 -1px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    rgba(0,0,0,.8) 0 2px 5px -1px;
+  }
+
+  .binanceinformation1 {
+    height: 13%;
+    width: 90%;
+    margin: 0% auto 5% auto;
+    display: flex;
+    flex-flow: wrap;
+    background: linear-gradient(0deg, #e6ffdf4f, #f9fdf8);
+    border: 5px solid #b3c7ad;
+    box-shadow: inset rgba(0,0,0,.6) 0 -1px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    rgba(0,0,0,.8) 0 2px 5px -1px;
+  }
+
+  .binanceheader1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #b3c7ad;
+  }
+
+  .binanceheader1 p {
+    color: grey;
+    font-family: 'Montserrat', 'Roboto Slab';
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .binanceheader {
+    height: 25%;
+  }
+
+  .binancemain {
+    display: none;
+  }
+
+  .binancemainmob {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .binancemainmob p {
+    padding: 5%;
+    text-align: center;
+    font-family: montserrat,roboto slab;
+    opacity: .7;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .binancemobmoney {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .moneymobheader {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobmain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    height: 50%;
+    margin-bottom: 10%;
+  }
+
+  .mobmain .mobmoney p {
+    font-size: 12px;
+    font-family: 'Montserrat', 'Roboto Slab';
+  }
+
+  .moneymobheader p {
+    font-size: 15px;
+    font-family: 'Montserrat', 'Roboto Slab';
+    font-weight: bold;
+    color: #545454;
+  }
+
+  .mobmoney {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    height: 30%;
+  }
+
+  .balance .userbalance {
+  font-size: 12px;
+}
+
+  .balance {
+    display: none;
+    flex-flow: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.balancereferals {
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.depositstart {
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.choosebot {
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.apisettings {
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-50vh);
+}
+
+.loader-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #dff2d9;
+z-index: 999999;
+}
+
+.loader {
+  border: 16px solid #212121; /* Light grey */
+  border-top: 16px solid #b3c7ad; /* Blue */
+  border-radius: none;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 43%;
+  left: 37%;
+}
+
+}
